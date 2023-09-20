@@ -11,3 +11,25 @@
 ul {
   list-style: none;
 }
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+li:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+li > img {
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+}
+
+li > h2 {
+  margin: 10px;
+}
